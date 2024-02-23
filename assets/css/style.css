@@ -5,7 +5,7 @@
   box-sizing: border-box;
   color: #fff;
 }
- 
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -14,7 +14,7 @@ body {
 }
 
 .navbar, footer {
-  background-color:#21b2b4;
+  background-color:#359FAE;
 }
 
 #contacto {
@@ -22,7 +22,7 @@ body {
 }
 
 #button {
-  background-color: #21b2b4;
+  background-color: #359FAE;
   color: #fff;
 }
   
