@@ -12,18 +12,23 @@ body {
     font-style: normal;  
 }
 
-.navbar, footer, #caja-de-icono {
+.navbar, footer, #caja-de-icono, .card-body {
   background-color:#359FAE;
 }
 
-#caja-de-texto {
-  display:flex;
-  align-items: center;
-  justify-content: center;
+#contacto, #quienes-somos, #destacados {
+  background-color: black;
 }
 
-#contacto, #quienes-somos {
-  background-color: black;
+#color-title {
+  color: #fff;
+}
+
+#destacados .card-img-top {
+  display: inline-block;
+  vertical-align: middle;
+  height: 10rem;
+  width: 16.97rem;
 }
 
 #button {
@@ -31,64 +36,4 @@ body {
   color: #fff;
 }
   
-  /*
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  } */
   
