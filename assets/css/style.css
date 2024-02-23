@@ -9,15 +9,20 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-style: normal;
-    
+    font-style: normal;  
 }
 
-.navbar, footer {
+.navbar, footer, #caja-de-icono {
   background-color:#359FAE;
 }
 
-#contacto {
+#caja-de-texto {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacto, #quienes-somos {
   background-color: black;
 }
 
