@@ -27,9 +27,11 @@ body {
 #destacados .card-img-top {
   display: inline-block;
   vertical-align: middle;
+  margin: 1 0.4rem;
   height: 10rem;
-  width: 16.97rem;
+  width: 16.97rem; 
 }
+
 
 #button {
   background-color: #359FAE;
