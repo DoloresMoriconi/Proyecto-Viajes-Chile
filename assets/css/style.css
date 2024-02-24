@@ -1,29 +1,41 @@
-
+/*color de fuente*/
 * {
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
   color: #fff;
 }
 
+/*fuente extraída de google font*/
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;  
+    color: #fff;
 }
 
-.navbar, footer, #caja-de-icono, .card-body {
+/*para que las imagenes del carrusel sean extensibles al  navbar*/
+#carrusel-viajes {
+  margin-top: -5rem;
+} 
+ /*efecto borroso para el  navbar*/
+nav {
+  backdrop-filter: blur(10px);
+}
+
+/*color de fondo del encabezado y pie de web, iconos de la seccion quienes somos y cuerpo de las tarjetas de la seccion destacados*/
+footer, #caja-de-icono, .card-body {
   background-color:#359FAE;
 }
 
+/*color de fondo de las secciones*/
 #contacto, #quienes-somos, #destacados {
   background-color: black;
 }
 
+/*color del titulo de las tarjetas*/
 #color-title {
   color: #fff;
 }
 
+/*tamaño de las imagenes de las tarjetas*/
 #destacados .card-img-top {
   display: inline-block;
   vertical-align: middle;
@@ -32,8 +44,8 @@ body {
   width: 16.97rem; 
 }
 
-
-#button {
+/*formato boton del formulario*/
+#envio-contacto {
   background-color: #359FAE;
   color: #fff;
 }
